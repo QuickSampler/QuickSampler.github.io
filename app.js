@@ -18,7 +18,7 @@ function startRecording() {
         audioContext = new AudioContext();
         isRecording = stream;
         input = audioContext.createMediaStreamSource(stream);
-        recorder = new Recorder(input, { numChannels: 1 })
+        recorder = new Recorder(input, { numChannels: 2 })
         recorder.record()
     }).catch(function (err) {
         location.reload();
