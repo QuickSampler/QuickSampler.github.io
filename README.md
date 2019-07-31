@@ -1,5 +1,5 @@
 # QuickSampler.github.io
-Record audio from any sound input (microphone, stereomix) etc, and automatically download a .wav file. 
+Quick Sampler is a free browser based recording tool for recording audio, using the in-built microphone or stereomix sound input.
 Made possible with: https://github.com/mattdiamond/Recorderjs and https://github.com/addpipe/simple-recorderjs-demo
 
 Notice:
