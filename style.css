@@ -53,3 +53,19 @@ body {
 input:focus {
     outline: none;
 }
+
+@media (max-width: 500px) {
+    #left {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    #right {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    #middle {
+        padding-top: 13%;
+    }
+}
