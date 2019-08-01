@@ -1,6 +1,21 @@
 ﻿
+
 body {
     background-color: rgba(128, 128, 128, 0.16);
+}
+
+.arrow-left {
+    width: 50%;
+    height: 100%;
+    padding-top: 12%;
+    margin-right: 30%;
+}
+
+.arrow-down {
+    width: 50%;
+    height: 100%;
+    padding-top: 66%;
+    margin-left: 30%;
 }
 
 .circle {
