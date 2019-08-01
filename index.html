@@ -1,10 +1,15 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sampler</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <Title>Quick Sampler</Title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="/C:\Users\marti\Desktop\favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
     <script 
         async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -16,17 +21,86 @@
     </script>
     
 </head>
-<body>
-    <h1 style="font-family: 'monospace', Tahoma, Geneva, Verdana, sans-serif;">Quick Sampler</h1>
-    <hr></hr>
-    <div style="height: 50px"></div>
-    <input style="font-family: 'monospace', Tahoma, Geneva, Verdana, sans-serif;" class="circle" type="button" id="mixButton" value="Record" />
-    <script src="library.js"></script>
-    <script src="app.js"></script>
-    <div style="height: 50px"></div>
-    <hr></hr>
-    <h3 style="font-family: 'monospace', Tahoma, Geneva, Verdana, sans-serif; font-size: 10px">
-    Made possible with: https://github.com/ mattdiamond/Recorderjs and https://github.com/ addpipe/simple-recorderjs-demo
-    </h3>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="font-family: Impact; font-size: 20px">Quick Sampler</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family: Impact; font-size:20px">
+                                How to use <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li style="font-family: Impact"><a href="#video1">How to record</a></li>
+                                <li style="font-family: Impact"><a href="#video2">How to change sound input</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="app" class="container-fluid" style="text-align: center; max-width: 400px; margin-top:3%">
+        
+        <div style="padding-bottom: 2%">
+            <h1 style="font-family: Impact; font-size: 44px; text-shadow: 2px 2px rgba(128, 128, 128, 0.20)">Quick Sampler</h1>
+        </div>
+
+        <div style="padding-top: 15%; padding-bottom: 12%">
+            <input class="circle" type="button" id="mixButton" value="Record" style="font-family: Impact"  />
+            <script src="library.js"></script>
+            <script src="app.js"></script>
+        </div>
+    </div>
+
+    <div id="video1" class="container-fluid" style="text-align: center; margin-top: 5%">
+        <div style="padding-bottom: 2%">
+            <h1 style="font-family: Impact">How to record</h1>
+        </div>
+
+        <video loop width="75%" height="75%" autoplay>
+            <source src="C:\Users\marti\Documents\GitHub\QuickSampler.github.io\How-to-use.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="video2" class="container-fluid" style="text-align: center;">
+
+        <div style="padding-bottom: 2%">
+            <h1 style="font-family: Impact">How to change sound input</h1>
+        </div>
+
+        <video loop width="75%" height="75%" autoplay>
+            <source src="C:\Users\marti\Documents\GitHub\QuickSampler.github.io\How-to-change.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #0094ff">
+        <div style="font-family: Impact; color: #fff; text-align: center; padding-top: 1%; padding-bottom: 1%">
+            Github: 
+            <br /> 
+            https://github.com/QuickSampler/QuickSampler.github.io
+            <br />
+            <br />
+            Made possible with: 
+            <br> 
+            https://github.com/mattdiamond/Recorderjs 
+            <br /> 
+            https://github.com/addpipe/simple-recorderjs-demo
+        </div>
+    </footer>
+    <!-- Footer -->
 </body>
 </html>
