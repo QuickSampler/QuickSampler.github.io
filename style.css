@@ -22,14 +22,14 @@ body {
 }
 
 #video1 {
-    padding-top: 50px;
+    padding-top: 3%;
     color: #fff;
     background-color: #00bcd4;
     padding-bottom: 50px;
 }
 
 #video2 {
-    padding-top: 50px;
+    padding-top: 3%;
     color: #fff;
     background-color: #009688;
     padding-bottom: 50px;
@@ -38,5 +38,3 @@ body {
 input:focus {
     outline: none;
 }
-
-
