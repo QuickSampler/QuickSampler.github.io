@@ -32,24 +32,6 @@ body {
     vertical-align: middle;
 }
 
-#app {
-    padding-top: 50px;
-}
-
-#video1 {
-    padding-top: 3%;
-    color: #fff;
-    background-color: #00bcd4;
-    padding-bottom: 50px;
-}
-
-#video2 {
-    padding-top: 3%;
-    color: #fff;
-    background-color: #009688;
-    padding-bottom: 50px;
-}
-
 input:focus {
     outline: none;
 }
