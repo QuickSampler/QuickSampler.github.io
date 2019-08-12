@@ -76,7 +76,7 @@ input:focus {
 }
 @media (max-width: 500px) {
     #middle {
-        padding-top: 3%;
+        padding-top: 0%;
         padding-bottom: 25%;
     }
 }
